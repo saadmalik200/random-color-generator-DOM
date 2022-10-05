@@ -15,6 +15,14 @@ main {
   margin: 2rem 0;
 }
 
+li div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -35,11 +43,24 @@ div {
 
 .cross {
   cursor: pointer;
-  text-align: right;
+  /* text-align: right; */
   color: white;
   padding: 2px 6px;
   background-color: gray;
   width: fit-content;
   height: fit-content;
   align-items: center;
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+}
+button {
+  background-color: rgb(40, 204, 40);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+input {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
 }
